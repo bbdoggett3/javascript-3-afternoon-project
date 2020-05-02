@@ -163,6 +163,14 @@ var myCar = {
 */
 
 //Code Here
+function recordCleaner(arr) {
+  for(i = 0; i < arr.length; i++) {
+
+    if(myCar.accidents[i].atFaultForAccident) {
+      myCar.accidents[i].atFaultForAccident = false;
+    }
+  }
+}
 
 
 

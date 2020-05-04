@@ -55,4 +55,6 @@ let arr1 = ['dog', 'chameleon', 'monkey'];
 let arr2 = ['bear', 'tiger', 'liger'];
 
 // code here
+//Found two different solutions that work, the concat is a built in method for arrays and works here, found it on MDN.
 let combinedArrays = [...arr1, ...arr2]; 
+// let combinedArrays = arr1.concat(arr2);
